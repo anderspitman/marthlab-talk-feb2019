@@ -28,12 +28,51 @@
           <textarea data-template>
             # Genomic Data Analysis in the Web Browser
 
-            Or: How to get violently spyurious results from your data
+            Or: How to get violently spyurious results
           </textarea>
         </section>
-				<section data-markdown>
-          <textarea data-template>
-          </textarea>
+
+        <section>
+          <section data-markdown>
+            <textarea data-template>
+              # Why do we use web browsers?
+
+              ## (for anything)
+            </textarea>
+          </section>
+          <section data-markdown>
+            <textarea data-template>
+              # Almost anything you can do in a browser you can do better with a native app
+            </textarea>
+          </section>
+        </section>
+
+        <section>
+          <section data-markdown>
+            <textarea data-template>
+              ## Analysis steps
+              1. Acquire data
+              2. Process data
+              3. View results
+            </textarea>
+          </section>
+          <section>
+            <img src='/diagrams/analysis_steps.png'></img>
+          </section>
+          <section>
+            <img src='/diagrams/desktop.png'></img>
+            <h3>Ye olde computer</h3>
+          </section>
+          <section>
+            <img src='/diagrams/cloud.png'></img>
+            <p>What if I told you, there is no cloud</p>
+          </section>
+          <section>
+            <img src='/diagrams/analysis_flow.png'></img>
+          </section>
+          <section>
+            <img src='/diagrams/analysis_flow_pipes.png'></img>
+          </section>
         </section>
 			</div>
 		</div>
@@ -46,6 +85,9 @@
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
+        slideNumber: 'c/t',
+        //fragmentInURL: true,
+        history: true,
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
