@@ -24,12 +24,23 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-markdown>
-          <textarea data-template>
-            # Genomic Data Analysis in the Web Browser
+				<section>
+          <section data-markdown>
+            <textarea data-template>
+              # Genomic Data Analysis in the Web Browser
 
-            Or: How to get violently spyurious results
-          </textarea>
+              Or: How to get violently spyurious results
+            </textarea>
+          </section>
+
+          <section>
+            <h3>Three Parts</h3>
+            <ol>
+              <li>Why web browsers?</li>
+              <li>Data flow architecture</li>
+              <li>Performance Techniques</li>
+            </ol>
+          </section>
         </section>
 
         <section>
@@ -40,11 +51,43 @@
               ## (for anything)
             </textarea>
           </section>
-          <section data-markdown>
-            <textarea data-template>
-              # Almost anything you can do in a browser you can do better with a native app
-            </textarea>
+
+          <section>
+            <h1>First some background</h1>
           </section>
+
+          <section>
+            <h1>Hypertext</h1>
+          </section>
+
+          <section>
+            <h1>Think LaTeX</h1>
+          </section>
+
+          <section>
+            <h4>HTML - Hypertext Markup Language</h4>
+            <h4>HTTP - Hypertext Transfer Protocol</h4>
+          </section>
+
+          <section>
+            <pre><code>
+              nc google.com 80
+              GET / HTTP/1.1
+            </code></pre>
+          </section>
+
+          <section>
+            <h1>But why</h1>
+          </section>
+
+          <section>
+            <h1>Answer: natural selection</h1>
+          </section>
+
+          <section>
+            <h1>JavaScript</h1>
+          </section>
+
         </section>
 
         <section>
@@ -65,13 +108,65 @@
           </section>
           <section>
             <img src='/diagrams/cloud.png'></img>
-            <p>What if I told you, there is no cloud</p>
+            <p>What if I told you... there is no cloud?</p>
           </section>
           <section>
             <img src='/diagrams/analysis_flow.png'></img>
           </section>
           <section>
             <img src='/diagrams/analysis_flow_pipes.png'></img>
+          </section>
+        </section>
+
+
+        <section>
+          <section>
+            <h1>How do we handle this bandwidth limitation?</h1>
+          </section>
+
+          <section>
+            <h1>Ceiling: 3840*2160 = 8294400 pixels</h1>
+          </section>
+
+          <section>
+            <h1>Hack the human visual system</h1>
+          </section>
+
+          <section>
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/vJG698U2Mvo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </section>
+
+          <section>
+            <img src='/images/colgate_1.jpg'></img>
+          </section>
+
+          <section>
+            <img src='/images/colgate_3.jpg'></img>
+          </section>
+
+          <section>
+            <img src='/images/colgate_2.jpg'></img>
+          </section>
+
+          <section>
+            <h3>The 3 pillars of data size reduction:</h3>
+            <ol>
+              <li>Sampling</li>
+              <li>Streaming</li>
+              <li>Sexy Transformations</li>
+            </ol>
+          </section>
+
+          <section>
+            <h1>Sampling</h1>
+          </section>
+
+          <section>
+            <h1>Streaming</h1>
+          </section>
+
+          <section>
+            <h1>Sexy Transformations</h1>
           </section>
         </section>
 			</div>
